@@ -1,10 +1,14 @@
 body {
   background-color: #DFE7DF;
+  color: #333431;
 }
 
 .App {
   text-align: center;
 }
+
+/* ===================== */
+/*  begin HEADER styles  */
 
 .header {
   display: flex;
@@ -26,4 +30,94 @@ body {
   -webkit-border-radius: 5px 5px 5px 5px;
   -moz-border-radius: 5px 5px 5px 5px;
   border-radius: 5px 5px 5px 5px;
+  -webkit-transition: background-color 100ms ease-in-out;
+  -moz-transition: background-color 100ms ease-in-out;
+  -ms-transition: background-color 100ms ease-in-out;
+  -o-transition: background-color 100ms ease-in-out;
+  transition: background-color 100ms ease-in-out;
 }
+
+/*  end HEADER styles  */
+/* =================== */
+
+/* ======================= */
+/*  begin BIO Card styles  */
+
+.container {
+  display: grid;
+  grid-template-columns: auto 150px;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.bio-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: 400px;
+  background-color: #FAFAFA;
+  margin: 100px auto auto auto;
+  -webkit-border-radius: 7px 7px 7px 7px;
+  -moz-border-radius: 7px 7px 7px 7px;
+  border-radius: 7px 7px 7px 7px;
+  font-family: 'Source Sans Pro', sans-serif;
+  -webkit-box-shadow: 1px 1px 16px -3px rgba(93,93,93,0.62);
+  -moz-box-shadow: 1px 1px 16px -3px rgba(93,93,93,0.62);
+  box-shadow: 1px 1px 16px -3px rgba(93,93,93,0.62);
+  border: #efefef solid 1px;
+}
+
+.bio-img {
+  background-image: url('https://i.imgur.com/a5Cf7gi.jpg');
+  background-size: 100% 100%;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 0 auto 25px auto;
+}
+
+.bio-name {
+  font-weight: 900;
+  font-size: 36pt;
+}
+
+.bio-subtitle {
+  margin-top: 10px;
+  line-height: 1.5em;
+}
+
+.bio-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #537178;
+  height: 100%;
+  -webkit-border-radius: 0 7px 7px 0;
+  -moz-border-radius: 0 7px 7px 0;
+  border-radius: 0 7px 7px 0;
+  border: #456268 solid 1px;
+}
+
+.bio-arrow {
+  color: #2e484e;
+}
+
+.bio-right:hover {
+  cursor: pointer;
+}
+
+.bio-right:hover .bio-arrow {
+  color: #21373d;
+  -webkit-transition: color 200ms ease-in-out;
+  -moz-transition: color 200ms ease-in-out;
+  -ms-transition: color 200ms ease-in-out;
+  -o-transition: color 200ms ease-in-out;
+  transition: color 200ms ease-in-out;
+}
+
+/*  end BIO Card styles  */
+/* ===================== */
