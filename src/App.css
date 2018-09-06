@@ -1,6 +1,6 @@
 body {
-  background-color: #DFE7DF;
   color: #333431;
+  background-color: #DFE7DF;
 }
 
 .App {
@@ -43,6 +43,10 @@ body {
 /* ======================= */
 /*  begin BIO Card styles  */
 
+.bio-section {
+  background-color: #DFE7DF;
+}
+
 .container {
   display: grid;
   grid-template-columns: auto 150px;
@@ -59,7 +63,7 @@ body {
   width: 600px;
   height: 400px;
   background-color: #FAFAFA;
-  margin: 100px auto auto auto;
+  margin: 70px auto auto auto;
   -webkit-border-radius: 7px 7px 7px 7px;
   -moz-border-radius: 7px 7px 7px 7px;
   border-radius: 7px 7px 7px 7px;
@@ -104,6 +108,10 @@ body {
 
 .bio-arrow {
   color: #2e484e;
+}
+
+.down-icon {
+  transform: rotate(90deg);
 }
 
 .bio-right:hover {

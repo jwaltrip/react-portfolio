@@ -16,7 +16,7 @@ class BioCard extends Component {
 
           <div className="bio-right">
             <div className="bio-arrow">
-              <i className="fas fa-arrow-alt-circle-right fa-5x"> </i>
+              <i className="fas fa-arrow-alt-circle-right fa-5x down-icon"> </i>
             </div>
           </div>
         </div>
