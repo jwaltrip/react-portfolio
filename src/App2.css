@@ -123,16 +123,74 @@ body {
 .gmail-icon:hover .gmail-text {
   animation: linkedin-email-slide 500ms ease-in-out forwards;
 }
+/*  end HEADER SECTION  */
+/* ==================== */
 
-
+/* ======================== */
+/*  begin PROJECTS section  */
 .projects-section {
   overflow: hidden;
   text-align: center;
   height: 76vh;
 }
 
-.projects-section h2 {
-  font-family: 'Roboto Slab', serif;
-  font-weight: 700;
-  font-size: 36pt;
+/*.projects-section .container {*/
+  /*display: grid;*/
+  /*grid-template-columns: 100px [col-start] repeat(3, 32% [col-start]) 100px [col-start];*/
+  /*grid-column-gap: 25px;*/
+  /*justify-items: center;*/
+  /*justify-content: space-evenly;*/
+  /*align-items: stretch;*/
+/*}*/
+
+/*.container .project {*/
+  /*grid-column-start: 2;*/
+  /*grid-column-end: 3;*/
+/*}*/
+
+.projects-section .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 100px auto;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  margin: 0 50px 0 50px;
+  width: 350px;
+  height: 450px;
+  background-color: #FAFAFA;
+  -webkit-border-radius: 7px 7px 7px 7px;
+  -moz-border-radius: 7px 7px 7px 7px;
+  border-radius: 7px 7px 7px 7px;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-box-shadow: 1px 1px 16px -3px rgba(93,93,93,0.62);
+  -moz-box-shadow: 1px 1px 16px -3px rgba(93,93,93,0.62);
+  box-shadow: 1px 1px 16px -3px rgba(93,93,93,0.62);
+  border: #efefef solid 1px;
+}
+
+.project-img {
+  flex: 2 0 auto;
+  background-color: white;
+}
+
+.project-footer {
+  flex: 1 0 100px;
+  background-color: #f3f3f3;
+}
+
+.project-title {
+  margin-top: 10px;
+  font-size: 20pt;
+  font-weight: 600;
+}
+
+.project-desc {
+  /*margin-top: 10px;*/
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14pt;
+  padding: 10px;
 }

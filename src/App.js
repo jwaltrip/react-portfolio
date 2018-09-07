@@ -6,6 +6,7 @@ import BioCard from "./components/BioCard";
 import BioSection from "./components/BioSection";
 
 import HeaderSection from "./components/HeaderSection";
+import Project from "./components/Project";
 
 class App extends Component {
   render() {
@@ -17,7 +18,19 @@ class App extends Component {
 
         <section className="projects-section">
           <div className="container">
-            <h2>Projects</h2>
+            <Project
+              title="React Todo List"
+              desc="A simple todo list written in React."
+            />
+            <Project
+              title="React Scoreboard"
+              desc="A scoreboard written in React to keep track of winners of: card games, board games, etc."
+            />
+            <Project
+              title="EDI Web Portal"
+              desc="A web portal built to convert inbound EDI 850 purchase order data and display it nicely formatted."
+            />
+
           </div>
         </section>
       </div>
