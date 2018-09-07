@@ -58,10 +58,20 @@ body {
   font-weight: 300;
 }
 
+.header-center {
+  position: relative;
+  top: 87vh;
+  left: 66vw;
+  font-family: 'VT323', monospace;
+  font-size: 36pt;
+  color: white;
+  opacity: 0.4;
+}
+
 .header-right {
   display: flex;
   flex-direction: column;
-  position: fixed;
+  position: absolute;
   margin: 15% 0 0 86%;
   transform: rotate(3deg);
 }
@@ -72,6 +82,10 @@ body {
   fill: #fff;
   opacity: 0.3;
   padding-top: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: white;
 }
 
 .github-icon:hover,
@@ -81,4 +95,44 @@ body {
   fill: #fff;
   opacity: 0.4;
   transition: 200ms ease-in-out;
+}
+
+.github-text,
+.linkedin-text,
+.gmail-text {
+  visibility: hidden;
+  font-family: 'VT323', monospace;
+  font-size: 19pt;
+}
+
+@keyframes github-slide {
+  0%, 50% { opacity: 0; }
+  100% { transform: translateX(-250%); visibility: visible; }
+}
+
+@keyframes linkedin-email-slide {
+  0%, 50% { opacity: 0; }
+  100% { transform: translateX(-220%); visibility: visible; }
+}
+
+.github-icon:hover .github-text {
+  animation: github-slide 500ms ease-in-out forwards;
+}
+
+.linkedin-icon:hover .linkedin-text,
+.gmail-icon:hover .gmail-text {
+  animation: linkedin-email-slide 500ms ease-in-out forwards;
+}
+
+
+.projects-section {
+  overflow: hidden;
+  text-align: center;
+  height: 76vh;
+}
+
+.projects-section h2 {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+  font-size: 36pt;
 }
