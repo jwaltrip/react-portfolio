@@ -34,6 +34,7 @@ const Project = (props) => {
               label="GitHub Source"
               component="a"
               href={props.githubSrcLink}
+              target="_blank"
               clickable
             />
           </div>
