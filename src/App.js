@@ -13,11 +13,20 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        {/*<Header/>*/}
-        {/*<BioSection/>*/}
         <HeaderSection />
 
         <ProjectsSection />
+
+        <section className="contact-form-section">
+
+
+          <div className="contact-container">
+            <h2 className="contact-header-text">Contact Me</h2>
+
+          </div>
+
+        </section>
+
       </div>
     );
   }
