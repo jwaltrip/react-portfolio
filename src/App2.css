@@ -240,13 +240,35 @@ body {
   width: 600px;
   height: 545px;
   background-color: #3e403c;
-  margin: 0 auto;
+  margin: 30px auto;
+}
+
+.hide {
+  height: 0;
+  visibility: hidden;
+  transition: all 1000ms ease-in-out;
 }
 
 .contact-header-text {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 36pt;
+  font-weight: 900;
   text-align: center;
+  width: fit-content;
+  align-self: center;
+  background: #481380;
+  /*background: -webkit-linear-gradient(315deg, #481380 0%,#742dd2 100%);*/
+  /*background: -o-linear-gradient(315deg, #481380 0%,#742dd2 100%);*/
+  /*background: linear-gradient(135deg, #481380 0%,#742dd2 100%);*/
+  padding: 18px;
+  border-radius: 18px;
+  color: #d5d0db;
+}
+
+.contact-header-text:hover {
+  cursor: pointer;
+  background-color: #602A9D;
+  transition: 250ms ease-in-out;
 }
 
 .contact-form-header {
