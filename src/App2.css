@@ -76,9 +76,9 @@ body {
   transform: rotate(3deg);
 }
 
-.github-icon,
-.linkedin-icon,
-.gmail-icon {
+.github-icon a,
+.linkedin-icon a,
+.gmail-icon a {
   fill: #fff;
   opacity: 0.3;
   padding-top: 40px;
@@ -88,12 +88,13 @@ body {
   color: white;
 }
 
-.github-icon:hover,
-.linkedin-icon:hover,
-.gmail-icon:hover {
+.github-icon:hover a,
+.linkedin-icon:hover a,
+.gmail-icon:hover a {
   cursor: pointer;
   fill: #fff;
   opacity: 0.4;
+  text-decoration: none;
   transition: 200ms ease-in-out;
 }
 
@@ -131,7 +132,7 @@ body {
 .projects-section {
   overflow: hidden;
   text-align: center;
-  height: 56vh;
+  height: 76vh;
 }
 
 /*.projects-section .container {*/
@@ -229,7 +230,6 @@ body {
   flex-direction: column;
   align-items: stretch;
   margin: 50px auto;
-  width: 1261px;
 }
 
 .contact-form-container {
@@ -238,13 +238,26 @@ body {
   justify-content: flex-start;
   align-items: center;
   width: 600px;
-  height: 545px;
+  /*height: 0;*/
   background-color: #3e403c;
   margin: 30px auto;
 }
 
-.hide {
+.show {
+  height: 545px;
+  visibility: visible;
+  /*transition: all 1000ms ease-in-out;*/
+}
+
+.hide,
+.hide form,
+.hide input[type='text'],
+.hide textarea,
+.hide button {
+  position: absolute;
   height: 0;
+  top: -9999px;
+  left: -9999px;
   visibility: hidden;
   transition: all 1000ms ease-in-out;
 }
