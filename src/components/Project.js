@@ -23,7 +23,7 @@ const Project = (props) => {
             src: props.imgSrc
           },
           largeImage: {
-            src: props.imgSrc,
+            src: props.enlargedImg,
             width: 514,
             height: 418
           },
