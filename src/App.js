@@ -3,6 +3,7 @@ import './App.css';
 
 import HeaderSection from "./components/HeaderSection";
 import ProjectsSection from "./components/ProjectsSection";
+import ContactFormSection from './components/ContactFormSection';
 
 
 class App extends Component {
@@ -12,7 +13,7 @@ class App extends Component {
       <div className="App">
         <HeaderSection />
         <ProjectsSection />
-        {/*<ContactFormSection />*/}
+        <ContactFormSection />
 
       </div>
     );

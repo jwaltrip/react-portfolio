@@ -1,7 +1,6 @@
 import React from 'react';
 import Chip from '@material-ui/core/Chip';
 import Avatar from '@material-ui/core/Avatar';
-import GithubIcon from "./GithubIcon";
 
 const Project = (props) => {
   let imageWidth = '100%';
