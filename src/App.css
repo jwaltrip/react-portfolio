@@ -68,6 +68,12 @@ body {
   opacity: 0.4;
 }
 
+.header-center:hover {
+  cursor: pointer;
+  opacity: 0.6;
+  transition: opacity 200ms ease-in-out;
+}
+
 .header-right {
   display: flex;
   flex-direction: column;

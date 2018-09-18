@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import GithubIcon from "./GithubIcon";
 import LinkedInIcon from "./LinkedInIcon";
 import GmailIcon from "./GmailIcon";
+import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
 
 const HeaderSection = (props) => {
   return (
@@ -14,8 +15,10 @@ const HeaderSection = (props) => {
             React • Node • MongoDB
           </div>
         </div>
-        <div className="header-center">
-          ↓ SEE MY PROJECTS ↓
+        <div className="header-center" onClick={props.handleOnClick}>
+          <Link activeClass="active" className="test1" to="test1" spy={true} smooth={true} duration={500} >
+            ↓ SEE MY PROJECTS ↓
+          </Link>
         </div>
         <div className="header-right">
           <GithubIcon width="75" height="75" />
