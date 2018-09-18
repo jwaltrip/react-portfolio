@@ -1,6 +1,8 @@
 import React from 'react';
 import Chip from '@material-ui/core/Chip';
 import Avatar from '@material-ui/core/Avatar';
+import ReactImageMagnify from 'react-image-magnify';
+
 
 const Project = (props) => {
   let imageWidth = '100%';
@@ -13,7 +15,22 @@ const Project = (props) => {
   return (
     <div className="project">
       <div className="project-img">
-        <img src={props.imgSrc} width={imageWidth} height={imageHeight} />
+        {/*<img src={props.imgSrc} width={imageWidth} height={imageHeight} />*/}
+        <ReactImageMagnify {...{
+          smallImage: {
+            alt: 'Wristwatch by Ted Baker London',
+            isFluidWidth: true,
+            src: props.imgSrc
+          },
+          largeImage: {
+            src: props.imgSrc,
+            width: 514,
+            height: 418
+          },
+          enlargedImageContainerClassName: "enlarged-image",
+          enlargedImagePosition: "over",
+          className: "responsive-img"
+        }} />
       </div>
       <div className="project-footer">
         <div className="footer-container">

@@ -15,7 +15,7 @@ const HeaderSection = (props) => {
             React • Node • MongoDB
           </div>
         </div>
-        <div className="header-center" onClick={props.handleOnClick}>
+        <div className="header-center">
           <Link activeClass="active" className="test1" to="test1" spy={true} smooth={true} duration={500} >
             ↓ SEE MY PROJECTS ↓
           </Link>
