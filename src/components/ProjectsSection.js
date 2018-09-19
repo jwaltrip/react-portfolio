@@ -17,7 +17,7 @@ const ProjectsSection = (props) => {
         <Project
           title="EDI Web Portal"
           desc="A web portal built to convert inbound EDI 850 purchase order data and display it nicely formatted."
-          imgSrc="https://i.imgur.com/ls7FRrr.png"
+          imgSrc="https://i.imgur.com/LIgpTAQ.png"
           enlargedImg="https://i.imgur.com/LIgpTAQ.png"
           limitImgHeight={true}
         />

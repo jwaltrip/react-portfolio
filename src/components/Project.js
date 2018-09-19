@@ -28,7 +28,7 @@ const Project = (props) => {
             height: 418
           },
           enlargedImageContainerClassName: "enlarged-image",
-          enlargedImagePosition: "over",
+          enlargedImagePosition: "beside",
           className: "responsive-img"
         }} />
       </div>
