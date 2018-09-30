@@ -16,7 +16,9 @@ const ProjectGrid = (props) => {
   return (
     <Container style={{ minHeight: '76vh' }}>
       <Hidden lg xl>
-        <h2>Projects</h2>
+        <div className="mobile-projects-header">
+          <h2>Projects</h2>
+        </div>
       </Hidden>
       {/*<Visible xs sm md>*/}
         {/*<h2>Projects</h2>*/}
