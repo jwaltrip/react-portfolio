@@ -11,7 +11,7 @@
   background: -webkit-linear-gradient(315deg, #481380 0%,#742dd2 100%);
   background: -o-linear-gradient(315deg, #481380 0%,#742dd2 100%);
   background: linear-gradient(135deg, #481380 0%,#742dd2 100%);
-  height: 47vh;
+  height: 62vh;
   width: 120%;
   -webkit-transform: rotate(-3deg);
   -ms-transform: rotate(-3deg);
@@ -24,7 +24,7 @@
 .header-section-mobile .bio {
   /*position: absolute;*/
   /*margin: 25px 0 0 25px;*/
-  margin: auto;
+  margin: 150px auto;
   transform: rotate(3deg);
 }
 
