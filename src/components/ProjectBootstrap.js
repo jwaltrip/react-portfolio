@@ -60,4 +60,4 @@ const ProjectBootstrap = (props) => {
   );
 };
 
-export default ProjectBootsrap;
+export default ProjectBootstrap;

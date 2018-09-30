@@ -8,6 +8,7 @@ import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, 
 import HeaderSection from "./components/HeaderSection";
 import ProjectsSectionBootstrap from "./components/ProjectSectionBootstrap";
 import ContactFormSection from './components/ContactFormSection';
+import ProjectGridContainer from "./components/ProjectGridContainer";
 
 
 class App extends Component {
@@ -35,7 +36,8 @@ class App extends Component {
         <HeaderSection />
 
         <Element name="test1" className="element" >
-          <ProjectsSectionBootstrap />
+          {/*<ProjectsSectionBootstrap />*/}
+          <ProjectGridContainer/>
         </Element>
 
         {/*<ContactFormSection />*/}
