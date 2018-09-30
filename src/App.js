@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Visible, Hidden } from 'react-grid-system';
 // import './App.css';
 import "./App2.css";
 
@@ -9,6 +10,7 @@ import HeaderSection from "./components/HeaderSection";
 import ProjectsSectionBootstrap from "./components/ProjectSectionBootstrap";
 import ContactFormSection from './components/ContactFormSection';
 import ProjectGridContainer from "./components/ProjectGridContainer";
+import HeaderSectionMobile from "./components/HeaderSectionMobile";
 
 
 class App extends Component {
@@ -33,14 +35,17 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <HeaderSection />
+        <Hidden xs sm md>
+          <HeaderSection />
+        </Hidden>
+        <Visible xs sm md>
+          <HeaderSectionMobile/>
+        </Visible>
 
         <Element name="test1" className="element" >
-          {/*<ProjectsSectionBootstrap />*/}
           <ProjectGridContainer/>
         </Element>
 
-        {/*<ContactFormSection />*/}
 
       </div>
     );

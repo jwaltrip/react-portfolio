@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col, setConfiguration } from 'react-grid-system';
+import { Container, Row, Col, Visible, Hidden, setConfiguration } from 'react-grid-system';
 
 import ProjectBootstrap from './ProjectBootstrap';
 
@@ -14,7 +14,14 @@ const ProjectGrid = (props) => {
   };
 
   return (
-    <Container style={{ minHeight: '76vh', marginTop: 100 }}>
+    <Container style={{ minHeight: '76vh' }}>
+      <Hidden lg xl>
+        <h2>Projects</h2>
+      </Hidden>
+      {/*<Visible xs sm md>*/}
+        {/*<h2>Projects</h2>*/}
+      {/*</Visible>*/}
+
       <Row>
         <Col md={col.md} xl={col.lg} >
           <ProjectBootstrap
