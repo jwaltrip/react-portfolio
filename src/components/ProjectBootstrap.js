@@ -18,7 +18,7 @@ const ProjectBootstrap = (props) => {
         {/*<img src={props.imgSrc} width={imageWidth} height={imageHeight} />*/}
         <ReactImageMagnify {...{
           smallImage: {
-            alt: 'Wristwatch by Ted Baker London',
+            alt: 'Portolio stuff',
             isFluidWidth: true,
             src: props.imgSrc
           },

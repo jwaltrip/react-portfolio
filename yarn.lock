@@ -6019,6 +6019,13 @@ react-event-listener@^0.6.2:
     prop-types "^15.6.0"
     warning "^4.0.1"
 
+react-grid-system@^4.3.1:
+  version "4.3.1"
+  resolved "https://registry.yarnpkg.com/react-grid-system/-/react-grid-system-4.3.1.tgz#10c115d2fae05c30a1f5720701e7f0229048eda0"
+  dependencies:
+    lodash "^4.17.10"
+    prop-types "^15.6.2"
+
 react-image-magnify@^2.7.2:
   version "2.7.2"
   resolved "https://registry.yarnpkg.com/react-image-magnify/-/react-image-magnify-2.7.2.tgz#2f34a13f05f5e3e7be3ad0bd134a6fb6f7cef51c"
