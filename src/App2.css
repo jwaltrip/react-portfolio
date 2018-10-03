@@ -151,6 +151,14 @@ body {
   margin-bottom: 35px;
 }
 
+.desktop-projects-header h2 {
+  text-align: center;
+  font-family: 'Roboto Slab', sans-serif;
+  font-size: 36pt;
+  font-weight: 700;
+  margin-bottom: 35px;
+}
+
 /*.projects-section .container {*/
 /*display: grid;*/
 /*grid-template-columns: 100px [col-start] repeat(3, 32% [col-start]) 100px [col-start];*/
