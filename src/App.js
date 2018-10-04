@@ -11,6 +11,7 @@ import ProjectsSectionBootstrap from "./components/ProjectSectionBootstrap";
 import ContactFormSection from './components/ContactFormSection';
 import ProjectGridContainer from "./components/ProjectGridContainer";
 import HeaderSectionMobile from "./components/HeaderSectionMobile";
+import WorkHistory from "./components/WorkHistory";
 
 
 class App extends Component {
@@ -46,6 +47,7 @@ class App extends Component {
           <ProjectGridContainer/>
         </Element>
 
+        <WorkHistory/>
 
       </div>
     );

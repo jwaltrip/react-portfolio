@@ -1,0 +1,39 @@
+.work-history-section {
+  background-color: #333;
+  color: #FAFAFA;
+}
+
+.work {
+  padding: 25px;
+}
+
+.work-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 2.7em;
+  padding-bottom: 20px;
+  /*padding: 25px;*/
+}
+
+.work-title ~ h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 1.7em;
+  padding-top: 10px;
+}
+
+.work-title ~ p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.1em;
+  font-weight: 400;
+}
+
+.work-list {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.1em;
+  font-weight: 400;
+}
+
+.work-list li {
+  margin: 0 0 7px 0;
+}
