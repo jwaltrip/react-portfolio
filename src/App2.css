@@ -36,6 +36,19 @@ body {
   margin: 200px 0 0 200px;
 }
 
+.bio-img-container {
+  display: flex;
+  justify-content: center;
+}
+
+.bio-img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  background: url('https://i.imgur.com/4gwT15A.jpg') no-repeat center;
+  background-size: 200px 215px;
+}
+
 .header-section .bio-name {
   /*margin: 200px 0 0 -200px;*/
 

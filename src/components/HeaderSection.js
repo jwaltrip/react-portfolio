@@ -9,6 +9,9 @@ const HeaderSection = (props) => {
     <section className="header-section">
       <div className="container">
         <div className="bio">
+          <div className="bio-img-container">
+            <div className="bio-img"> </div>
+          </div>
           <div className="bio-name">Jake Waltrip</div>
           <div className="bio-sub">
             Full-Stack Javascript Student<br/>
