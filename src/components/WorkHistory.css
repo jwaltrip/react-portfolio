@@ -37,3 +37,23 @@
 .work-list li {
   margin: 0 0 7px 0;
 }
+
+.quote-footer {
+  background-color: #222;
+  color: #FAFAFA;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 1.3em;
+  text-align: center;
+  /*height: 76px;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.quote-author {
+  font-size: 0.8em;
+  padding-top: 5px;
+}

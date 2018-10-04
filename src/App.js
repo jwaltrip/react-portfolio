@@ -12,6 +12,7 @@ import ContactFormSection from './components/ContactFormSection';
 import ProjectGridContainer from "./components/ProjectGridContainer";
 import HeaderSectionMobile from "./components/HeaderSectionMobile";
 import WorkHistory from "./components/WorkHistory";
+import QuoteFooter from "./components/QuoteFooter";
 
 
 class App extends Component {
@@ -48,6 +49,8 @@ class App extends Component {
         </Element>
 
         <WorkHistory/>
+
+        <QuoteFooter/>
 
       </div>
     );
