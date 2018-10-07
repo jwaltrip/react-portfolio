@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col, Visible, Hidden, setConfiguration } from 'react-grid-system';
 
-import ProjectBootstrap from './ProjectBootstrap';
+import Project from './Project';
 
 setConfiguration({ containerWidths: [540, 750, 960, 1400], breakpoints: [576, 768, 992, 1319] });
 
@@ -28,7 +28,7 @@ const ProjectGrid = (props) => {
 
       <Row>
         <Col md={col.md} xl={col.lg} >
-          <ProjectBootstrap
+          <Project
             title="React Todo List"
             desc="A simple todo list written in React - fully styled by myself."
             demoLink="https://jwaltrip.github.io/react-todo-list/"
@@ -38,7 +38,7 @@ const ProjectGrid = (props) => {
           />
         </Col>
         <Col md={col.md} xl={col.lg} >
-          <ProjectBootstrap
+          <Project
             title="React Reddit Viewer"
             desc="A simple React view that fetches Reddit's /r/all feed, and displays the feed with simple pagination."
             demoLink="https://jwaltrip.github.io/react-reddit-viewer"
@@ -49,7 +49,7 @@ const ProjectGrid = (props) => {
           />
         </Col>
         <Col md={col.md} xl={col.lg} >
-          <ProjectBootstrap
+          <Project
             title="EDI Web Portal"
             desc="A web portal built to convert inbound EDI 850 purchase order data and display it nicely formatted."
             imgSrc="https://i.imgur.com/LIgpTAQ.png"
@@ -57,7 +57,7 @@ const ProjectGrid = (props) => {
           />
         </Col>
         <Col md={col.md} xl={col.lg} >
-          <ProjectBootstrap
+          <Project
             title="React Scoreboard"
             desc="A scoreboard written in React to keep track of winners of: card games, board games, etc."
             demoLink="https://jwaltrip.github.io/react-scoreboard/"

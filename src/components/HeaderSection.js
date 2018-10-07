@@ -1,8 +1,10 @@
 import React from 'react';
+import './HeaderDesktop.css';
 import GithubIcon from "./GithubIcon";
 import LinkedInIcon from "./LinkedInIcon";
 import GmailIcon from "./GmailIcon";
-import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
+import { Link, DirectLink } from 'react-scroll';
+
 
 const HeaderSection = (props) => {
   return (

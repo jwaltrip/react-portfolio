@@ -7,12 +7,10 @@ import "./App2.css";
 import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
 
 import HeaderSection from "./components/HeaderSection";
-import ProjectsSectionBootstrap from "./components/ProjectSectionBootstrap";
-import ContactFormSection from './components/ContactFormSection';
-import ProjectGridContainer from "./components/ProjectGridContainer";
 import HeaderSectionMobile from "./components/HeaderSectionMobile";
 import WorkHistory from "./components/WorkHistory";
 import QuoteFooter from "./components/QuoteFooter";
+import ProjectGrid from "./components/ProjectGrid";
 
 
 class App extends Component {
@@ -45,7 +43,7 @@ class App extends Component {
         </Visible>
 
         <Element name="test1" className="element" >
-          <ProjectGridContainer/>
+          <ProjectGrid/>
         </Element>
 
         <WorkHistory/>
