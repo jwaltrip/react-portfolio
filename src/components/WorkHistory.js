@@ -1,7 +1,6 @@
 import React from 'react';
 import { Container, Row, Col, Visible, Hidden, setConfiguration } from 'react-grid-system';
 import './WorkHistory.css';
-import Work from "./Work";
 
 setConfiguration({ containerWidths: [540, 750, 960, 1400], breakpoints: [576, 768, 992, 1319] });
 

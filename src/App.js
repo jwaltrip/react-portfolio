@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import { Visible, Hidden } from 'react-grid-system';
 // import './App.css';
-import "./App2.css";
+import "./Global.css";
 
 // import scrollToComponent from 'react-scroll-to-component';
 import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
 
-import HeaderSection from "./components/HeaderSection";
-import HeaderSectionMobile from "./components/HeaderSectionMobile";
+import HeaderDesktop from "./components/HeaderDesktop";
+import HeaderMobile from "./components/HeaderMobile";
 import WorkHistory from "./components/WorkHistory";
 import QuoteFooter from "./components/QuoteFooter";
 import ProjectGrid from "./components/ProjectGrid";
@@ -36,10 +36,10 @@ class App extends Component {
     return (
       <div className="App">
         <Hidden xs sm md>
-          <HeaderSection />
+          <HeaderDesktop />
         </Hidden>
         <Visible xs sm md>
-          <HeaderSectionMobile/>
+          <HeaderMobile/>
         </Visible>
 
         <Element name="test1" className="element" >

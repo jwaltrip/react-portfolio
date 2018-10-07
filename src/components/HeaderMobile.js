@@ -7,7 +7,7 @@ import GithubIconMobile from "./GithubIconMobile";
 import GmailIconMobile from "./GmailIconMobile";
 import LinkedInIconMobile from "./LinkedInIconMobile";
 
-const HeaderSectionMobile = (props) => {
+const HeaderMobile = (props) => {
 
   const linkSize = {
     width: 35,
@@ -41,4 +41,4 @@ const HeaderSectionMobile = (props) => {
   );
 };
 
-export default HeaderSectionMobile;
+export default HeaderMobile;

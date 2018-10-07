@@ -1,6 +1,6 @@
 import React from 'react';
 
-const LinkedInIcon = (props) => {
+const LinkedInIconDesktop = (props) => {
   return (
     <div className="linkedin-icon">
       <a href="https://www.linkedin.com/in/jake-waltrip/" target="_blank">
@@ -14,4 +14,4 @@ const LinkedInIcon = (props) => {
   );
 };
 
-export default LinkedInIcon;
+export default LinkedInIconDesktop;

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const GmailIcon = (props) => {
+const GmailIconDesktop = (props) => {
   return (
     <div className="gmail-icon">
       <a href="mailto:jake.waltrip@gmail.com" target="_blank">
@@ -14,4 +14,4 @@ const GmailIcon = (props) => {
   );
 };
 
-export default GmailIcon;
+export default GmailIconDesktop;

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const GithubIcon = (props) => {
+const GithubIconDesktop = (props) => {
   return (
     <div className="github-icon">
       <a href="https://github.com/jwaltrip" target="_blank">
@@ -14,4 +14,4 @@ const GithubIcon = (props) => {
   );
 };
 
-export default GithubIcon;
+export default GithubIconDesktop;

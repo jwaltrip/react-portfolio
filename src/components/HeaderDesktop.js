@@ -1,12 +1,12 @@
 import React from 'react';
 import './HeaderDesktop.css';
-import GithubIcon from "./GithubIcon";
-import LinkedInIcon from "./LinkedInIcon";
-import GmailIcon from "./GmailIcon";
+import GithubIconDesktop from "./GithubIconDesktop";
+import LinkedInIconDesktop from "./LinkedInIconDesktop";
+import GmailIconDesktop from "./GmailIconDesktop";
 import { Link, DirectLink } from 'react-scroll';
 
 
-const HeaderSection = (props) => {
+const HeaderDesktop = (props) => {
   return (
     <section className="header-section">
       <div className="container">
@@ -26,13 +26,13 @@ const HeaderSection = (props) => {
           </Link>
         </div>
         <div className="header-right">
-          <GithubIcon width="75" height="75" />
-          <LinkedInIcon width="75" height="75" />
-          <GmailIcon width="75" height="75" />
+          <GithubIconDesktop width="75" height="75" />
+          <LinkedInIconDesktop width="75" height="75" />
+          <GmailIconDesktop width="75" height="75" />
         </div>
       </div>
     </section>
   );
 };
 
-export default HeaderSection;
+export default HeaderDesktop;
