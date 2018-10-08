@@ -30,9 +30,7 @@ const WorkHistory = (props) => {
       </Hidden>
 
       <div className="work-history-section">
-        <Container >
-
-
+        <Container>
           <Row>
             <Col xl={col.xl} className="work">
               <h2 className="work-title">Austin Coding Academy</h2>
