@@ -37,6 +37,8 @@ const ProjectGrid = (props) => {
             githubSrcLink="https://github.com/jwaltrip/react-todo-list"
             imgSrc="https://i.imgur.com/IJ4XNOc.png"
             enlargedImg="https://i.imgur.com/IJ4XNOc.png"
+            demoChipLabel="Demo"
+            showGithubSrcChip
           />
         </Col>
         <Col md={col.md} xl={col.lg} >
@@ -48,6 +50,8 @@ const ProjectGrid = (props) => {
             enlargedImg="https://i.imgur.com/IgWUJjI.jpg"
             limitImgHeight={false}
             githubSrcLink="https://github.com/jwaltrip/react-reddit-viewer"
+            demoChipLabel="Demo"
+            showGithubSrcChip
           />
         </Col>
         <Col md={col.md} xl={col.lg} >
@@ -56,6 +60,7 @@ const ProjectGrid = (props) => {
             desc="A web portal built to convert inbound EDI 850 purchase order data and display it nicely formatted."
             imgSrc="https://i.imgur.com/LIgpTAQ.png"
             enlargedImg="https://i.imgur.com/LIgpTAQ.png"
+            demoChipLabel="Demo & Src Coming Soon!"
           />
         </Col>
         <Col md={col.md} xl={col.lg} >
@@ -67,6 +72,8 @@ const ProjectGrid = (props) => {
             enlargedImg="https://i.imgur.com/tUGtg6Q.png"
             limitImgHeight={false}
             githubSrcLink="https://github.com/jwaltrip/react-scoreboard"
+            demoChipLabel="Demo"
+            showGithubSrcChip
           />
         </Col>
       </Row>

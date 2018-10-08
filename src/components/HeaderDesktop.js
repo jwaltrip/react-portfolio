@@ -12,7 +12,9 @@ const HeaderDesktop = (props) => {
       <div className="container">
         <div className="bio">
           <div className="bio-img-container">
-            <div className="bio-img"> </div>
+            <div className="bio-img-border">
+              <div className="bio-img"> </div>
+            </div>
           </div>
           <div className="bio-name">Jake Waltrip</div>
           <div className="bio-sub">
@@ -21,7 +23,7 @@ const HeaderDesktop = (props) => {
           </div>
         </div>
         <div className="header-center">
-          <Link activeClass="active" className="test1" to="test1" spy={true} smooth={true} duration={500} >
+          <Link activeClass="active" className="test1" to="project-section" spy={true} smooth={true} duration={500} >
             ↓ SEE MY PROJECTS ↓
           </Link>
         </div>

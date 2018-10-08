@@ -18,7 +18,7 @@
   -ms-transform: rotate(-3deg);
   transform: rotate(-3deg);
   left: -3em;
-  top: -3.3em;
+  top: -4em;
   position: relative;
 }
 
@@ -38,6 +38,14 @@
   height: 200px;
   background: url('https://i.imgur.com/4gwT15A.jpg') no-repeat center;
   background-size: 200px 215px;
+}
+
+.bio-img-border {
+  width: 210px;
+  height: 210px;
+  border-radius: 50%;
+  border: 5px #FFFFFF66 solid;
+  z-index: 10000;
 }
 
 .header-section .bio-name {

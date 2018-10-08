@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link, DirectLink } from 'react-scroll';
 import { Container, Row, Col, Visible, Hidden, setConfiguration } from 'react-grid-system';
 import './WorkHistory.css';
 
@@ -22,7 +23,9 @@ const WorkHistory = (props) => {
       </Hidden>
       <Hidden xs sm md>
         <div className="desktop-projects-header">
-          <h2>Work and School History</h2>
+          <Link activeClass="active" className="work-scroll-link" to="work-section" spy={true} smooth={true} duration={500} >
+            <h2>Work and School History</h2>
+          </Link>
         </div>
       </Hidden>
 

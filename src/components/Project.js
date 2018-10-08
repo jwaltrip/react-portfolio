@@ -5,20 +5,25 @@ import ReactImageMagnify from 'react-image-magnify';
 
 
 const Project = (props) => {
-  let imageWidth = '100%';
-  let imageHeight = '';
-  if (props.limitImgHeight) {
-    imageHeight = '100%';
-    imageWidth = '';
+  // logic to see if should show gitbut source chip
+  let githubSrcChip = '';
+  if (props.showGithubSrcChip) {
+    githubSrcChip = <Chip
+      avatar={<Avatar src="https://simpleicons.org/icons/github.svg"/>}
+      label="GitHub Source"
+      component="a"
+      href={props.githubSrcLink}
+      target="_blank"
+      clickable
+    />;
   }
 
   return (
     <div className="project">
       <div className="project-img">
-        {/*<img src={props.imgSrc} width={imageWidth} height={imageHeight} />*/}
         <ReactImageMagnify {...{
           smallImage: {
-            alt: 'Wristwatch by Ted Baker London',
+            alt: props.title,
             isFluidWidth: true,
             src: props.imgSrc
           },
@@ -39,20 +44,13 @@ const Project = (props) => {
           <div className="project-chips">
             <Chip
               avatar={<Avatar src="https://simpleicons.org/icons/github.svg"/>}
-              label="Demo"
+              label={props.demoChipLabel}
               component="a"
               href={props.demoLink}
               target="_blank"
               clickable
             />
-            <Chip
-              avatar={<Avatar src="https://simpleicons.org/icons/github.svg"/>}
-              label="GitHub Source"
-              component="a"
-              href={props.githubSrcLink}
-              target="_blank"
-              clickable
-            />
+            {githubSrcChip}
           </div>
         </div>
       </div>

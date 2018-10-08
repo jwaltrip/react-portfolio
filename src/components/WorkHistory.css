@@ -15,6 +15,15 @@
   /*padding: 25px;*/
 }
 
+.work-scroll-link {
+  color: #333;
+}
+
+.work-scroll-link:hover {
+  cursor: pointer;
+  color: #333;
+}
+
 .work-title ~ h4 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;

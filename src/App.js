@@ -42,11 +42,13 @@ class App extends Component {
           <HeaderMobile/>
         </Visible>
 
-        <Element name="test1" className="element" >
+        <Element name="project-section" className="element" >
           <ProjectGrid/>
         </Element>
 
-        <WorkHistory/>
+        <Element name="work-section" className="element" >
+          <WorkHistory/>
+        </Element>
 
         <QuoteFooter/>
 
